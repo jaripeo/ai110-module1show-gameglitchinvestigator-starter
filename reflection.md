@@ -14,7 +14,7 @@ When I first ran the game, the hint system was not trustworthy and the state did
 
 ## 2. How did you use AI as a teammate?
 
-I used Copilot to help trace the Streamlit state flow and separate the logic from the UI. One correct suggestion was to keep the secret number numeric and reset the full session state on a new game, which matched the behavior I wanted. One misleading idea was comparing the secret as a string on alternating turns, because that recreated the broken hint behavior instead of fixing it. I verified the useful suggestions by checking the code path and rerunning the tests.
+I used an AI assistant to help trace the Streamlit state flow and separate the logic from the UI. One correct suggestion was to keep the secret number numeric and reset the full session state on a new game, which matched the behavior I wanted. One misleading idea was comparing the secret as a string on alternating turns, because that recreated the broken hint behavior instead of fixing it. I verified the useful suggestions by checking the code path and rerunning the tests.
 
 ## 3. Debugging and testing your fixes
 

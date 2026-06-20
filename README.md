@@ -39,7 +39,7 @@ Describe your fixed game in numbered steps so a reader can follow along without 
 4. Click **New Game** to reset the secret, score, history, and status.
 5. Win the round and confirm the app shows the final score and win message.
 
-**Screenshot** *(optional)*: not included
+**Screenshot** *(optional)*: none added
 
 ## 🧪 Test Results
 
