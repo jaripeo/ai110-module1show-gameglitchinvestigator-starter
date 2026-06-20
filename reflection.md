@@ -19,6 +19,7 @@ I used Copilot to help trace the Streamlit state flow and separate the logic fro
 ## 3. Debugging and testing your fixes
 
 I decided a bug was fixed only when the code path matched the intended behavior and the tests still passed. I ran `pytest` after the refactor, and the helper tests confirmed that `check_guess` still returns the correct outcome/message pairs. I also checked the new-game branch in `app.py` to make sure it clears score, history, status, and the secret instead of leaving stale state behind. AI helped me understand which parts belonged in `logic_utils.py` versus `app.py`, which made the fixes easier to verify.
+I also finalized the README walkthrough and test results so the written documentation matched the repaired game.
 
 ## 4. What did you learn about Streamlit and state?
 
